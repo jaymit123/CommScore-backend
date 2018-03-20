@@ -1,8 +1,8 @@
 # CommScore-backend
-This WebApp provides stats to compare people in a community. This repo holds all the lambda functions for the project
+- This WebApp provides stats to compare people in a community.
 
-This repo holds the backend lambda functions for the given project.
-The Front End Implementation is provided at [CommScore-frontend](https://www.github.com/jaymit123/CommScore-frontend)
+- This repo holds the backend lambda functions for the given project.
+- The Front End Implementation is provided at [CommScore-frontend](https://www.github.com/jaymit123/CommScore-frontend)
 
 
 Services Used :
