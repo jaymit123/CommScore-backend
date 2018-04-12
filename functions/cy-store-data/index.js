@@ -1,7 +1,5 @@
 const AWS = require('aws-sdk');
 const DynamoDB = new AWS.DynamoDB.DocumentClient({ 'region' : 'us-east-2'});
-
-//Store current user data in dynamo db
 exports.handler = (event, context, callback) => {
     console.log(event);
        try{  

@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+def checkPalindrom(num):
+	if num < 0 or (num != 0 and num % 10 == 0): #negative numbers and numbers dont start with 0 so not palindrome
+	return False
+rev = 0
+	while num > rev:
+		rev = rev * 10 + (num % 10)
+		num /= 10
+	
+	return num == rev or (num / 10) == rev
+
+
+
+print(checkPalindrome(121))
+		
